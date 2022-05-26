@@ -2,6 +2,7 @@
 .navbar {
     overflow: hidden;
     background-color: darkviolet;
+    font-family: Arial;
 }
 
 /* dropdown container  */
