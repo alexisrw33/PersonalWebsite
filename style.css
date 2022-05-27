@@ -57,11 +57,11 @@
 
 /* Add a black background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: purple;
+    background-color: black;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content:hover {
+.navbar .dropdown:hover, .dropdown-content:hover {
     display: block;
 }
 
