@@ -8,7 +8,6 @@
 
 /* dropdown container  */
 .dropdown {
-    overflow: hidden;
     position: relative;
     display: inline-block;
 }
@@ -26,8 +25,8 @@
 }
 
 /* Add a black background color to navbar links on hover */
-.navbar .dropdown:hover .dropbtn {
-    background-color: black;
+.navbar .dropdown:hover {
+    background-color: violet;
     display: inline-block;
 }
 
@@ -43,22 +42,25 @@
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    float: none;
     color: blueviolet;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    text-align: left;
 }
 
-/* Add a black background color to dropdown links on hover */
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: black;
+    background-color: grey;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content:hover {
+.dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: azure;
 }
 
 
