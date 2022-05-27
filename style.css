@@ -1,3 +1,4 @@
+
 /* navbar container  */
 .navbar {
     overflow: hidden;
@@ -60,7 +61,7 @@
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content:hover {
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
