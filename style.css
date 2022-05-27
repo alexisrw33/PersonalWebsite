@@ -6,12 +6,6 @@
     font-family: Arial;
 }
 
-.ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
 /* dropdown container  */
 .dropdown {
     overflow: hidden;
@@ -34,7 +28,7 @@
 /* Add a black background color to navbar links on hover */
 .navbar .dropdown:hover .dropbtn {
     background-color: black;
-    display: contents;
+    display: inline-block;
 }
 
 /* Dropdown content (hidden by default) */
