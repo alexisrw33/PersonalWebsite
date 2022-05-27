@@ -33,6 +33,7 @@
 /* Add a black background color to navbar links on hover */
 .navbar .dropdown:hover .dropbtn {
     background-color: black;
+    display: block;
 }
 
 /* Dropdown content (hidden by default) */
@@ -61,7 +62,7 @@
 }
 
 /* Show the dropdown menu on hover */
-.navbar .dropdown:hover, .dropdown-content:hover {
+.dropdown:hover .dropdown-content:hover {
     display: block;
 }
 
