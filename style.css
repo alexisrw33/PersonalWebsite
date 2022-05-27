@@ -14,8 +14,9 @@
 
 /* dropdown container  */
 .dropdown {
-    float: left;
     overflow: hidden;
+    position: relative;
+    display: inline-block;
 }
 
 /* Dropdown button */
