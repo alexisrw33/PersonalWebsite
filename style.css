@@ -1,3 +1,4 @@
+/* FOR PAGE 1  */
 
 /* navbar container  */
 .navbar {
@@ -45,7 +46,7 @@
 .dropdown-content a {
     color: blueviolet;
     background-color: white;
-    padding: 12px 16px;
+    padding: 14px 16px;
     text-decoration: none;
     display: block;
 }
@@ -64,6 +65,14 @@
 .dropdown:hover .dropbtn {
     background-color: white;
     color: blueviolet;
+}
+
+/* FOR PAGE 2 */
+
+
+.container {
+    width: 500px;
+    height: 281px;
 }
 
 
