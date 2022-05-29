@@ -108,7 +108,7 @@ slider-container .actions-buttons .up-button {
 }
 
 /* Dropdown button */
-.dropdown .dropbtn {
+.dropdown .dropbtn button {
     background-color: inherit;
     color: white;
     padding: 14px 16px;
