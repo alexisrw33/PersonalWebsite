@@ -60,13 +60,16 @@ body {
     width: 100%;
 }
 
-.slider-container .actions-buttons button {
-    background-color: white;
-    color: grey;
+button {
+    background-color: #fff;
     border: none;
+    color: #aaa;
     cursor: pointer;
     font-size: 16px;
     padding: 15px;
+  }
+
+.slider-container .actions-buttons button {
     position: absolute;
     left: 35%;
     top: 50%;
