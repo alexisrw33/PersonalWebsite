@@ -45,9 +45,9 @@ body {
 
 .right-slide {
     height: 100%;
+    top: 0;
     width: 65%;
     position: absolute;
-    top: 0;
     left: 35%;
     transition: transform 0.5s ease-in-out;
 }
