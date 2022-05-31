@@ -16,7 +16,7 @@ body {
     position: relative;
     overflow: hidden;
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
 }
 
 .left-slide {
@@ -61,27 +61,29 @@ body {
     width: 100%;
 }
 
-.slider-container .actions-buttons {
+.action-buttons button {
     background-color: #fff;
     border: none;
     color: #aaa;
     cursor: pointer;
     font-size: 16px;
     padding: 15px;
+}
+  
+.action-buttons button:hover {
+    color: #222;
+}
+  
+.action-buttons button:focus {
+    outline: none;
+}
+
+.slider-container .action-buttons button {
     position: absolute;
     left: 35%;
     top: 50%;
     z-index: 100;
 }
-
-.slider-container .actions-buttons button:hover {
-    color: black;
-}
-
-.slider-container .actions-buttons button:focus {
-    outline: none;
-}
-
 
 slider-container .actions-buttons .down-button {
     transform: translateX(-100%);
