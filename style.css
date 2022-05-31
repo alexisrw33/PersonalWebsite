@@ -110,7 +110,7 @@ body {
 }
 
 /* Dropdown button */
-.dropdown .dropbtn button {
+.navbar .dropdown .dropbtn button {
     background-color: darkviolet;
     color: white;
     padding: 14px 16px;
@@ -129,7 +129,7 @@ body {
 }
 
 /* Dropdown content (hidden by default) */
-.dropdown-content {
+.navbar .dropdown .dropdown-content {
     display: none;
     position: absolute;
     background-color: white;
@@ -140,7 +140,7 @@ body {
 }
 
 /* Links inside the dropdown */
-.dropdown-content a {
+.navbar .dropdown .dropdown-content a {
     color: blueviolet;
     background-color: white;
     padding: 14px 16px;
@@ -149,17 +149,17 @@ body {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {
+.navbar .dropdown .dropdown-content a:hover {
     background-color: grey;
 }
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content .dropbtn{
+.navbar .dropdown:hover .dropdown-content .dropbtn{
     display: block;
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
+.navbar .dropdown:hover .dropbtn {
     background-color: white;
     color: blueviolet;
 }
