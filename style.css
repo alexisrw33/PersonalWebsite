@@ -85,13 +85,13 @@ body {
     z-index: 100;
 }
 
-slider-container .actions-buttons .down-button {
+.slider-container .action-buttons .down-button {
     transform: translateX(-100%);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-slider-container .actions-buttons .up-button {
+.slider-container .action-buttons .up-button {
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -107,7 +107,6 @@ slider-container .actions-buttons .up-button {
 /* dropdown container  */
 .dropdown {
     position: relative;
-    display: inline-block;
 }
 
 /* Dropdown button */
@@ -123,8 +122,9 @@ slider-container .actions-buttons .up-button {
 }
 
 /* Add a black background color to navbar links on hover */
-.navbar .dropdown:hover {
+.navbar .dropdown .dropbtn:hover {
     background-color: violet;
+    color: white;
     display: inline-block;
 }
 
