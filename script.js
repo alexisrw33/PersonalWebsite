@@ -3,8 +3,7 @@ const leftSlide = document.querySelector('.left-slide')
 const rightSlide = document.querySelector('.right-slide')
 const upButton = document.querySelector('.up-button')
 const downButton = document.querySelector('.down-button')
-const SliderContainer = document.querySelector('.slider-container')
-const slideLength = rightSlide.querySelectorAll('div')
+const slideLength = rightSlide.querySelectorAll('div').length
 
 let activeSlideIndex = 0
 
