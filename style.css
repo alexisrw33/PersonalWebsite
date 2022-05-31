@@ -61,7 +61,7 @@ body {
     width: 100%;
 }
 
-.slider-container .actions-buttons button {
+.slider-container .actions-buttons {
     background-color: #fff;
     border: none;
     color: #aaa;
@@ -110,7 +110,7 @@ slider-container .actions-buttons .up-button {
 
 /* Dropdown button */
 .dropdown .dropbtn button {
-    background-color: inherit;
+    background-color: darkviolet;
     color: white;
     padding: 14px 16px;
     font-size: 16px;
